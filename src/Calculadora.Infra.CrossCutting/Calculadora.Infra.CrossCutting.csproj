@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Calculadora.Domain\Calculadora.Domain.csproj" />
-    <ProjectReference Include="..\Calculadora.Infra.Data\Calculadora.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>
