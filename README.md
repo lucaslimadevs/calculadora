@@ -37,3 +37,34 @@ Antes de começar, certifique-se de que você tem instalado em sua máquina:
 ![image](https://github.com/user-attachments/assets/d87ffef7-127a-4b25-8f65-f0ee8c694e1f)
 
 ![image](https://github.com/user-attachments/assets/b9b5a9a9-1a94-4e18-9efe-e15dde04b567)
+
+## Configuração da API (Calculadora.Api)
+
+1. Navegue até o diretório da API:
+
+   ```bash
+   cd Calculadora.Api
+
+2. Restaure as dependências do projeto:
+   ```bash
+   dotnet restore
+
+3. Execute a API:   
+   ```bash
+   dotnet run
+
+## Configuração do Frontend (Calculadora.Frontend)
+
+1. Navegue até o diretório do frontend:
+   
+   ```bash
+   cd web/Calculadora.UI
+
+2. Instale as dependências do projeto:
+ 
+   ```bash
+   npm install
+
+3. Execute a aplicação:
+   ```bash  
+   ng serve
