@@ -32,7 +32,7 @@ Antes de começar, certifique-se de que você tem instalado em sua máquina:
 - [Angular CLI](https://angular.io/cli) (Angular cli 17 ou superior)
 - [.NET SDK](https://dotnet.microsoft.com/download) (.net 8)
 
-## Teste de cobertura da API
+## Testes e cobertura da API
 
 ![image](https://github.com/user-attachments/assets/d87ffef7-127a-4b25-8f65-f0ee8c694e1f)
 
