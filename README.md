@@ -43,7 +43,7 @@ Antes de começar, certifique-se de que você tem instalado em sua máquina:
 1. Navegue até o diretório da API:
 
    ```bash
-   cd Calculadora.Api
+   cd .\src\Calculadora.Api\
 
 2. Restaure as dependências do projeto:
    ```bash
@@ -58,7 +58,7 @@ Antes de começar, certifique-se de que você tem instalado em sua máquina:
 1. Navegue até o diretório do frontend:
    
    ```bash
-   cd web/Calculadora.UI
+   cd .\web\Calculadora.UI\
 
 2. Instale as dependências do projeto:
  
