@@ -34,7 +34,7 @@ Antes de começar, certifique-se de que você tem instalado em sua máquina:
 
 ## Testes e cobertura da API
 
-![image](https://github.com/user-attachments/assets/d87ffef7-127a-4b25-8f65-f0ee8c694e1f)
+![image](https://github.com/user-attachments/assets/0e6edb1e-9f1e-42b9-9014-45be0444022f)
 
 ![image](https://github.com/user-attachments/assets/b9b5a9a9-1a94-4e18-9efe-e15dde04b567)
 
