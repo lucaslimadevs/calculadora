@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  calculadora.api:
+    build:
+      context: .  
+      dockerfile: src/Calculadora.Api/Dockerfile
+    ports:
+      - "5200:80"
+    volumes:
+      - .:/src
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development   
+  
+  calculadora.ui:
+    build:
+      context: .  
+      dockerfile: web/Calculadora.UI/Dockerfile
+    ports:
+      - "4200:80"
+    volumes:
+      - .:/src
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development   
