@@ -4,14 +4,14 @@ WORKDIR /source
 
 # Copia o csproj e restaura dependências
 COPY . .
-RUN dotnet restore "src/Calculadora.Api/GestaoServico.Api.csproj"
+RUN dotnet restore "src/Calculadora.Api/Calculadora.Api.csproj"
 
 # Compila o projeto
-RUN dotnet build "src/Calculadora.Api/GestaoServico.Api.csproj" -c Release -o /app/build
+RUN dotnet build "src/Calculadora.Api/Calculadora.Api.csproj" -c Release -o /app/build
 
 # Etapa 2: Publicação
 FROM build AS publish
-RUN dotnet publish "src/Calculadora.Api/GestaoServico.Api.csproj" -c Release -o /app/publish
+RUN dotnet publish "src/Calculadora.Api/Calculadora.Api.csproj" -c Release -o /app/publish
 
 # Etapa 3: Final
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
